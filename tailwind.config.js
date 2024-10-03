@@ -10,10 +10,14 @@ export default {
         'primary' : '#262254',
         'secondary' : '#543884',
         'error' : '#FF0000' 
+      },
+      gridTemplateColumns: {
+        'galery': 'repeat(auto-fill, minmax(280px, 1fr))'
       }
     },
   },
   plugins: [
-    require('tailwindcss-animated')
+    require('tailwindcss-animated'),
+    ["prettier-plugin-tailwindcss"],
   ],
 }

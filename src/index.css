@@ -2,13 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body, html {
+body, html, #root {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
 }
 
-#root {
-    height: 100%;
-    width: 100%;
- }
+
